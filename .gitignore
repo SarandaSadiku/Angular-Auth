@@ -1,0 +1,49 @@
+# dependencies
+server/node_modules
+
+
+# See http:/help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+ngApp/dist
+ngApp/tmp
+ngApp/out-tsc
+# Only exists if Bazel was run
+ngApp/bazel-out
+
+# dependencies
+ngApp/node_modules
+
+# profiling files
+ngApp/chrome-profiler-events*.json
+
+# IDEs and editors
+ngApp/.idea
+ngApp/.project
+ngApp/.classpath
+ngApp/.c9/
+ngApp/*.launch
+ngApp/.settings/
+ngApp/*.sublime-workspace
+
+# IDE - VSCode
+ngApp/.vscode/*
+ngApp/!.vscode/settings.json
+ngApp/!.vscode/tasks.json
+ngApp/!.vscode/launch.json
+ngApp/!.vscode/extensions.json
+ngApp/.history/*
+
+# misc
+ngApp/.sass-cache
+ngApp/connect.lock
+ngApp/coverage
+ngApp/libpeerconnection.log
+ngApp/npm-debug.log
+ngApp/yarn-error.log
+ngApp/testem.log
+ngApp/typings
+
+# System Files
+ngApp/.DS_Store
+ngApp/Thumbs.db
